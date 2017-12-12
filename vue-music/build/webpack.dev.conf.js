@@ -34,7 +34,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     proxy: config.dev.proxyTable,
     quiet: true, // necessary for FriendlyErrorsPlugin
     watchOptions: {
-      poll: config.dev.poll,
+      poll: config.dev.poll
     }
   },
   plugins: [
@@ -49,7 +49,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       filename: 'index.html',
       template: 'index.html',
       inject: true
-    }),
+    })
   ]
 })
 
