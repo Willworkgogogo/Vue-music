@@ -20,6 +20,12 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // 是否检测一个文件末尾是否有空行， 0否
+    'eol-last': 0,
+    // 是否在function圆括号前加空格
+    'space-before-function-paren': 0,
+    // allow paren-less arrow functions
+    'arrow-parens': 0,
   }
 }
