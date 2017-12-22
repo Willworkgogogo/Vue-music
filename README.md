@@ -1,6 +1,8 @@
 # Vue-music
 基于Vue.js2.x开发仿一个音乐播放器应用。个人Vue.js练习项目，进阶...
 
+
+
 ## 目录结构
 ```shell
 vue-music/
