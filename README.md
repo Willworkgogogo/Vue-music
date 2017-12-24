@@ -26,8 +26,8 @@ vue-music/
             singer/     歌手组件
             tab/        tab组件
         router/ 路由
-        store/
-        App.vue 根组件
+        store/ 第三方
+        App.vue 根组件
         main.js
     static/        
 ```
