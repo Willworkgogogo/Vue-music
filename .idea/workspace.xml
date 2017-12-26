@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vue-music/src/common/js/.gitkeep" afterPath="$PROJECT_DIR$/vue-music/src/common/js/dom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/base/slider/slider.vue" afterPath="$PROJECT_DIR$/vue-music/src/base/slider/slider.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -279,7 +277,7 @@
       <workItem from="1513184608669" duration="13000" />
       <workItem from="1513184668823" duration="2298000" />
       <workItem from="1513265812092" duration="9097000" />
-      <workItem from="1514299925738" duration="1969000" />
+      <workItem from="1514299925738" duration="2061000" />
     </task>
     <task id="LOCAL-00001" summary="路由 和 tab组件">
       <created>1513186348401</created>
@@ -358,11 +356,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514300577037</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="func _initSliderWidth">
+      <created>1514306138780</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1514306138780</updated>
+    </task>
+    <task id="LOCAL-00013" summary="addClass, hasClass func">
+      <created>1514306159586</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1514306159586</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17709000" />
+    <option name="totallyTimeSpent" value="17801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -429,7 +441,9 @@
     <MESSAGE value="slider component" />
     <MESSAGE value="slider" />
     <MESSAGE value="add better-scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="add better-scroll" />
+    <MESSAGE value="func _initSliderWidth" />
+    <MESSAGE value="addClass, hasClass func" />
+    <option name="LAST_COMMIT_MESSAGE" value="addClass, hasClass func" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
