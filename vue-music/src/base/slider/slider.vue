@@ -43,10 +43,16 @@
         if (this.autoPlay) {
           this._autoplay()
         }
+
+        window.addEventListener('resize', () => {
+          if (!this.slider) return
+          this._initSliderWidth(true)
+          this.slider.refresh()
+        })
       }, 20)
     },
     methods: {
-      _initSliderWidth() {
+      _initSliderWidth(isResize) {
         this.children = this.$refs.sliderGroup.children
 
         let width = 0
@@ -60,7 +66,7 @@
           width += sliderWidth
         }
 
-        if (this.loop) {
+        if (this.loop && !isResize) {
           // 循环轮播的时候， 需要前后复制两个slider的宽度
           width += 2 * sliderWidth
         }
@@ -82,13 +88,19 @@
           click: true
         })
 
-        // 获取滚动后下标
+        // 监听BScroll暴露出的事件， 获取滚动后下标
         this.slider.on('scrollEnd', () => {
           let pageIndex = this.slider.getCurrentPage().pageX
           if (this.loop) {
             pageIndex -= 1
           }
           this.currentPageIndex = pageIndex
+
+          // 轮播
+          if (this.autoPlay) {
+            clearTimeout(this.timer)
+            this._autoplay()
+          }
         })
       },
       _autoplay() {
@@ -100,6 +112,11 @@
           this.slider.goToPage(pageIndex, 0, 400)
         }, this.interval)
       }
+    },
+    destroyed() {
+      // 在组件销毁前释放内存
+      console.log('destroyed')
+      clearTimeout(this.timer)
     }
   }
 </script>
