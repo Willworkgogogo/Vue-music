@@ -4,7 +4,7 @@
       <slot></slot>
     </div>
     <div class="dots">
-
+      <span class="dot" v-for="(item, index) in dots" :class="{active: currentPageIndex === index}"></span>
     </div>
   </div>
 </template>
@@ -14,6 +14,12 @@
   import {addClass} from 'common/js/dom'
 
   export default {
+    data() {
+      return {
+        dots: [],
+        currentPageIndex: 0
+      }
+    },
     props: {
       loop: {
         type: Boolean,
@@ -31,7 +37,12 @@
     mounted() {
       setTimeout(() => {
         this._initSliderWidth()
+        this._initDots()
         this._initSlider()
+
+        if (this.autoPlay) {
+          this._autoplay()
+        }
       }, 20)
     },
     methods: {
@@ -56,6 +67,9 @@
 
         this.$refs.sliderGroup.style.width = width + 'px'
       },
+      _initDots() {
+        this.dots = new Array(this.children.length)
+      },
       _initSlider() {
         this.slider = new BScroll(this.$refs.slider, {
           scrollX: true,
@@ -67,6 +81,24 @@
           snapSpeed: 400,
           click: true
         })
+
+        // 获取滚动后下标
+        this.slider.on('scrollEnd', () => {
+          let pageIndex = this.slider.getCurrentPage().pageX
+          if (this.loop) {
+            pageIndex -= 1
+          }
+          this.currentPageIndex = pageIndex
+        })
+      },
+      _autoplay() {
+        let pageIndex = this.currentPageIndex + 1
+        if (this.loop) {
+          pageIndex += 1
+        }
+        this.timer = setTimeout(() => {
+          this.slider.goToPage(pageIndex, 0, 400)
+        }, this.interval)
       }
     }
   }
@@ -77,6 +109,7 @@
 
   .slider
     min-height: 1px
+    position: relative
     .slider-group
       position: relative
       overflow: hidden
