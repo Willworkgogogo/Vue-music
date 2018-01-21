@@ -25,6 +25,7 @@
     },
     created() {
       this._getRecommend()
+
     },
     methods: {
       _getRecommend() {
