@@ -6,7 +6,7 @@
 [源码地址](https://github.com/ustbhuangyi/vue-music)
 
 
-## 目录结构
+## 1.目录结构
 ```shell
 vue-music/
     build/ 构建工具，存放webpack配置、打包文件
@@ -34,3 +34,9 @@ vue-music/
         main.js
     static/        
 ```
+
+### 2.Question
+> need to be resolved...
+
+1. new Promise && Promise.resolve()  the differences
+1. 
