@@ -27,7 +27,7 @@ export function getPlayList() {
     needNewCode: 0,
     categoryId: 10000000,
     rnd: Math.random(),
-    format: 'json'
+    format: 'json'// 限定返回数据类型
   })
 
   return axios.get(url, {
