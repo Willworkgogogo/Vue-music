@@ -39,4 +39,4 @@ vue-music/
 > need to be resolved...
 
 1. new Promise && Promise.resolve()  the differences
-1. 
+1. flex
