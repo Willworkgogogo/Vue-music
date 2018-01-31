@@ -35,8 +35,16 @@ vue-music/
     static/        
 ```
 
-### 2.Question
+### 2.技术栈&&插件
+- better-scroll 滚动
+- vue-lazyload 图片懒加载
+
+### 3.Question
 > need to be resolved...
 
 1. new Promise && Promise.resolve()  the differences
 1. flex
+
+### 4.Issue
+1. fastclick 和 better-scroll的click冲突，导致recommends页面的轮播图片无法点击。解决办法，在点击的img上添加class='needsclick'
+1. 
