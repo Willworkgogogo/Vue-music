@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/base/listview/listview.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/base/scroll/scroll.vue" afterPath="$PROJECT_DIR$/vue-music/src/base/scroll/scroll.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/common/js/dom.js" afterPath="$PROJECT_DIR$/vue-music/src/common/js/dom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/components/singer/singer.vue" afterPath="$PROJECT_DIR$/vue-music/src/components/singer/singer.vue" />
@@ -377,7 +375,7 @@
       <workItem from="1517226421197" duration="2949000" />
       <workItem from="1517319686930" duration="5701000" />
       <workItem from="1517400389684" duration="6090000" />
-      <workItem from="1517679936651" duration="6681000" />
+      <workItem from="1517679936651" duration="6706000" />
     </task>
     <task id="LOCAL-00001" summary="路由 和 tab组件">
       <created>1513186348401</created>
@@ -554,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517415485910</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[新增] - 歌手列表组件">
+      <created>1517761190950</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1517761190950</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47889000" />
+    <option name="totallyTimeSpent" value="47914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -638,7 +643,8 @@
     <MESSAGE value="[新增] - vue-lazyload添加懒加载插件" />
     <MESSAGE value="[更新] - 推荐列表页面" />
     <MESSAGE value="[新增] - 歌手页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="[新增] - 歌手页面" />
+    <MESSAGE value="[新增] - 歌手列表组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="[新增] - 歌手列表组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -770,6 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2900">
           <caret line="117" column="28" lean-forward="false" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
