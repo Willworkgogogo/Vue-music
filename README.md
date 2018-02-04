@@ -48,3 +48,8 @@ vue-music/
 ### 4.Issue
 1. fastclick 和 better-scroll的click冲突，导致recommends页面的轮播图片无法点击。解决办法，在点击的img上添加class='needsclick'
 1. 
+
+
+### 5.知识点记录
+1. data() && props 里的属性都会被检测，当设置的某个属性不需要被监测时，应该放置在created方法中
+1. 
