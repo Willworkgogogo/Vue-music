@@ -4,7 +4,6 @@
     <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/base/scroll/scroll.vue" afterPath="$PROJECT_DIR$/vue-music/src/base/scroll/scroll.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/common/js/dom.js" afterPath="$PROJECT_DIR$/vue-music/src/common/js/dom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/components/singer/singer.vue" afterPath="$PROJECT_DIR$/vue-music/src/components/singer/singer.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -375,7 +374,7 @@
       <workItem from="1517226421197" duration="2949000" />
       <workItem from="1517319686930" duration="5701000" />
       <workItem from="1517400389684" duration="6090000" />
-      <workItem from="1517679936651" duration="6706000" />
+      <workItem from="1517679936651" duration="6739000" />
     </task>
     <task id="LOCAL-00001" summary="路由 和 tab组件">
       <created>1513186348401</created>
@@ -559,11 +558,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517761190950</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="添加获取、设置dom属性方法">
+      <created>1517761223072</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1517761223072</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47914000" />
+    <option name="totallyTimeSpent" value="47947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -619,7 +625,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="路由 和 tab组件" />
     <MESSAGE value="新增头部和tab五个组件" />
     <MESSAGE value="数据请求" />
     <MESSAGE value="定义常用对象" />
@@ -644,7 +649,8 @@
     <MESSAGE value="[更新] - 推荐列表页面" />
     <MESSAGE value="[新增] - 歌手页面" />
     <MESSAGE value="[新增] - 歌手列表组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="[新增] - 歌手列表组件" />
+    <MESSAGE value="添加获取、设置dom属性方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加获取、设置dom属性方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
