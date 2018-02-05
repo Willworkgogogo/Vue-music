@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/willwang.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/base/listview/listview.vue" afterPath="$PROJECT_DIR$/vue-music/src/base/listview/listview.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/base/scroll/scroll.vue" afterPath="$PROJECT_DIR$/vue-music/src/base/scroll/scroll.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/components/singer/singer.vue" afterPath="$PROJECT_DIR$/vue-music/src/components/singer/singer.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -393,7 +391,7 @@
       <workItem from="1517319686930" duration="5701000" />
       <workItem from="1517400389684" duration="6090000" />
       <workItem from="1517679936651" duration="6811000" />
-      <workItem from="1517838270021" duration="5416000" />
+      <workItem from="1517838270021" duration="5456000" />
     </task>
     <task id="LOCAL-00001" summary="路由 和 tab组件">
       <created>1513186348401</created>
@@ -591,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517761249102</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="添加滚动位置监听，事件暴露">
+      <created>1517847595817</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1517847595817</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53435000" />
+    <option name="totallyTimeSpent" value="53475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -652,7 +657,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据请求" />
     <MESSAGE value="定义常用对象" />
     <MESSAGE value="定义recommend的service" />
     <MESSAGE value="jsonp公用函数" />
@@ -677,7 +681,8 @@
     <MESSAGE value="[新增] - 歌手列表组件" />
     <MESSAGE value="添加获取、设置dom属性方法" />
     <MESSAGE value="添加歌手列表页右侧滚动效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加歌手列表页右侧滚动效果" />
+    <MESSAGE value="添加滚动位置监听，事件暴露" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加滚动位置监听，事件暴露" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
