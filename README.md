@@ -14,8 +14,15 @@ vue-music/
     node_modules/ node包依赖
     src/ 源码目录
         api/ 封装了接口了函数、常用model
+            config.js      公用参数，ERR_OK...
+            recommend.js   推荐页面接口函数
+            singer.js      歌手页面接口函数
         assets/ 资源
         base/ 基础组件
+            listview/ 歌手列表，多级联动
+            loading/  loading组件
+            scroll/   滚动组件
+            slider/   轮播组件
         common/ 公用静态资源
             fonts/
             image/
@@ -27,6 +34,7 @@ vue-music/
             recommend/  推荐组件
             search/     搜索组件
             singer/     歌手组件
+            singer-detail/ 歌手详情
             tab/        tab组件
         router/ 路由
         store/ 第三方
@@ -38,6 +46,7 @@ vue-music/
 ### 2.技术栈&&插件
 - better-scroll 滚动
 - vue-lazyload 图片懒加载
+- Vuex
 
 ### 3.Question
 > need to be resolved...

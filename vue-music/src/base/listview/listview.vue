@@ -9,7 +9,7 @@
       <li v-for="group in data" class="list-group" ref="listGroup">
         <h2 class="list-group-title">{{group.title}}</h2>
         <ul>
-          <li v-for="item in group.items" class="list-group-items">
+          <li @click="selectItem(item)" v-for="item in group.items" class="list-group-items">
             <img class="avatar" v-lazy="item.avatar" alt="">
             <span class="name">{{item.name}}</span>
           </li>
@@ -28,12 +28,16 @@
     <div class="list-fixed" v-show="fixedTitle" ref="fixed">
       <h1 class="fixed-title">{{fixedTitle}}</h1>
     </div>
+    <div v-show="!data.length" class="loading-container">
+      <loading></loading>
+    </div>
   </scroll>
 </template>
 
 <script type="text/ecmascript-6">
   import Scroll from 'base/scroll/scroll'
   import {getData} from 'common/js/dom'
+  import Loading from 'base/loading/loading'
 
   const ANCHOR_HEIGHT = 18
   const TITLE_HEIGHT = 30
@@ -69,6 +73,10 @@
       }
     },
     methods: {
+      selectItem(item) {
+        // 基础组件不处理业务逻辑，只需将事件派发出去，供使用者调用
+        this.$emit('select', item)
+      },
       onShortcutTouchStart(e) {
         // anchor锚点
         let anchorIndex = getData(e.target, 'index')
@@ -145,12 +153,12 @@
           return
         }
         this.fixedTop = fixedTop
-        console.log(this.fixedTop)
         this.$refs.fixed.style.transform = `translate3d(0, ${fixedTop}px, 0)`
       }
     },
     components: {
-      Scroll
+      Scroll,
+      Loading
     }
   }
 </script>
