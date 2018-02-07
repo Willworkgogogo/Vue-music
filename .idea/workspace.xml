@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/store/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/store/getters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/store/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/store/mutation-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/store/mutations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/store/state.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/package.json" afterPath="$PROJECT_DIR$/vue-music/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/base/listview/listview.vue" afterPath="$PROJECT_DIR$/vue-music/src/base/listview/listview.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/components/singer/singer.vue" afterPath="$PROJECT_DIR$/vue-music/src/components/singer/singer.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/main.js" afterPath="$PROJECT_DIR$/vue-music/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/router/index.js" afterPath="$PROJECT_DIR$/vue-music/src/router/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -403,7 +392,7 @@
       <workItem from="1517679936651" duration="6811000" />
       <workItem from="1517838270021" duration="5529000" />
       <workItem from="1517930367461" duration="5344000" />
-      <workItem from="1518014744248" duration="5406000" />
+      <workItem from="1518014744248" duration="5430000" />
     </task>
     <task id="LOCAL-00001" summary="路由 和 tab组件">
       <created>1513186348401</created>
@@ -622,11 +611,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517935695938</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="完善吸顶">
+      <created>1518020644053</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1518020644053</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64298000" />
+    <option name="totallyTimeSpent" value="64322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -683,7 +679,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="jsonp公用函数" />
     <MESSAGE value="图片" />
     <MESSAGE value="文档" />
     <MESSAGE value="slider component" />
@@ -708,7 +703,8 @@
     <MESSAGE value="添加滚动位置监听，事件暴露" />
     <MESSAGE value="滚动区间与右侧导航联动" />
     <MESSAGE value="title吸顶、边界限制" />
-    <option name="LAST_COMMIT_MESSAGE" value="title吸顶、边界限制" />
+    <MESSAGE value="完善吸顶" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善吸顶" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
