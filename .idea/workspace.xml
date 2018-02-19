@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/common/js/song.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/api/singer.js" afterPath="$PROJECT_DIR$/vue-music/src/api/singer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue" afterPath="$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -303,7 +300,7 @@
       <workItem from="1517838270021" duration="5529000" />
       <workItem from="1517930367461" duration="5344000" />
       <workItem from="1518014744248" duration="5987000" />
-      <workItem from="1518704177136" duration="5441000" />
+      <workItem from="1518704177136" duration="5467000" />
     </task>
     <task id="LOCAL-00001" summary="路由 和 tab组件">
       <created>1513186348401</created>
@@ -536,11 +533,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518020684807</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="歌手详情页数据整理">
+      <created>1519056842117</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1519056842118</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70320000" />
+    <option name="totallyTimeSpent" value="70346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -596,7 +600,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文档" />
     <MESSAGE value="slider component" />
     <MESSAGE value="slider" />
     <MESSAGE value="add better-scroll" />
@@ -621,7 +624,8 @@
     <MESSAGE value="title吸顶、边界限制" />
     <MESSAGE value="完善吸顶" />
     <MESSAGE value="歌手详情页 使用vuex" />
-    <option name="LAST_COMMIT_MESSAGE" value="歌手详情页 使用vuex" />
+    <MESSAGE value="歌手详情页数据整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="歌手详情页数据整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
