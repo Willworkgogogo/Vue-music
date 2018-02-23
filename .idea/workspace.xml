@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="Merge branch 'master' of https://github.com/Willworkgogogo/Vue-music&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/base/song-list/song-list.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/common/js/song.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/components/music-list/music-list.vue" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/vue-music/src/api/singer.js" afterPath="$PROJECT_DIR$/vue-music/src/api/singer.js" />
-      <change beforePath="$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue" afterPath="$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue" />
-    </list>
+    <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="Merge branch 'master' of https://github.com/Willworkgogogo/Vue-music&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
