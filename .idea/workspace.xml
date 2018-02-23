@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="完善吸顶">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+    <list default="true" id="1cbb7572-27ed-48a1-9a09-6e433fee65a2" name="Default" comment="Merge branch 'master' of https://github.com/Willworkgogogo/Vue-music&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/base/song-list/song-list.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/common/js/song.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue-music/src/components/music-list/music-list.vue" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/vue-music/src/store/mutations.js" afterPath="$PROJECT_DIR$/vue-music/src/store/mutations.js" />
+      <change beforePath="$PROJECT_DIR$/vue-music/src/api/singer.js" afterPath="$PROJECT_DIR$/vue-music/src/api/singer.js" />
+      <change beforePath="$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue" afterPath="$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,9 +24,11 @@
       <file leaf-file-name="singer-detail.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="702">
+              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <marker date="1519352129000" expanded="true" signature="1460:1461" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/vue-music/src/store/mutations.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -85,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/vue-music/src/store/state.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -316,7 +320,7 @@
       <workItem from="1517930367461" duration="5344000" />
       <workItem from="1518014744248" duration="5430000" />
       <workItem from="1518512378702" duration="1814000" />
-      <workItem from="1519348683752" duration="321000" />
+      <workItem from="1519348683752" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="路由 和 tab组件">
       <created>1513186348401</created>
@@ -542,11 +546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518020644053</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update">
+      <created>1519352124713</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1519352124713</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66457000" />
+    <option name="totallyTimeSpent" value="67644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -603,7 +614,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="图片" />
     <MESSAGE value="文档" />
     <MESSAGE value="slider component" />
     <MESSAGE value="slider" />
@@ -628,7 +638,8 @@
     <MESSAGE value="滚动区间与右侧导航联动" />
     <MESSAGE value="title吸顶、边界限制" />
     <MESSAGE value="完善吸顶" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善吸顶" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -917,9 +928,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-music/src/components/singer-detail/singer-detail.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="702">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <marker date="1519352129000" expanded="true" signature="1460:1461" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,7 +973,7 @@
     <entry file="file://$PROJECT_DIR$/vue-music/src/store/state.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -968,7 +981,7 @@
     <entry file="file://$PROJECT_DIR$/vue-music/src/store/mutations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
