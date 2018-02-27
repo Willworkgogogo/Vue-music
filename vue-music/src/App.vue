@@ -6,6 +6,7 @@
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
+    <player></player>
   </div>
 </template>
 
@@ -13,10 +14,12 @@
   // 组件是个Class，所以大写规范些
   import MHeader from 'components/m-header/m-header'
   import Tab from 'components/tab/tab'
+  import Player from 'components/player/player'
   export default {
     components: {
       MHeader,
-      Tab
+      Tab,
+      Player
     }
   }
 </script>
