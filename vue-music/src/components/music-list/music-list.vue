@@ -28,6 +28,7 @@
 
 <script type="text/ecmascript-6">
   import Scroll from 'base/scroll/scroll'
+  import {mapActions} from 'vuex'
   import SongList from 'base/song-list/song-list'
   import { prefixStyle } from 'common/js/dom'
   import Loading from 'base/loading/loading'
@@ -71,14 +72,21 @@
       this.$refs.list.$el.style.top = `${this.imageHeight}px`
     },
     methods: {
-      selectItem(item, index) {
-      },
       scroll(pos) {
         this.scrollY = pos.y
       },
       back() {
         this.$router.back()
-      }
+      },
+      selectItem(item, index) {
+        this.selectPlay({
+          list: this.songs,
+          index
+        })
+      },
+      ...mapActions([
+        'selectPlay'
+      ])
     },
     watch: {
       scrollY(newY) {
