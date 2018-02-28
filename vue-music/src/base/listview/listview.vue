@@ -6,10 +6,10 @@
           :probeType="3"
           @scroll="scroll">
     <ul>
-      <li v-for="group in data" class="list-group" ref="listGroup" :key="group">
+      <li v-for="(group, index) in data" class="list-group" ref="listGroup" :key="index">
         <h2 class="list-group-title">{{group.title}}</h2>
         <ul>
-          <li @click="selectItem(item)" v-for="item in group.items" class="list-group-items" :key="item">
+          <li @click="selectItem(item)" v-for="(item, index) in group.items" class="list-group-items" :key="index">
             <img class="avatar" v-lazy="item.avatar" alt="">
             <span class="name">{{item.name}}</span>
           </li>
