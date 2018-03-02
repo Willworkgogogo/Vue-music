@@ -27,6 +27,13 @@
           </div>
         </div>
         <div class="bottom">
+          <!-- 进度条 -->
+          <div class="progress-wrapper">
+            <span class="time time-l">{{currentTime}}</span>
+            <div class="progress-bar-wrapper"></div>
+            <span class="time time-r"></span>
+          </div>
+          <!-- 操作 -->
           <div class="operators">
             <div class="icon i-left">
               <i class="icon-sequence"></i>
@@ -70,6 +77,7 @@
     <audio ref="audio" :src="currentSong.url"
                        @playing="ready"
                        @error="error"
+                       @timeupdate="updateTime"
     ></audio>  
   </div>
 </template>
@@ -84,7 +92,8 @@
   export default {
     data() {
       return {
-        songReady: false // 是否允许点击标识位
+        songReady: false, // 是否允许点击标识位
+        currentTime: 0
       }
     },
     computed: {
@@ -154,6 +163,9 @@
       },
       error() {
         this.songReady = true
+      },
+      updateTime(e) {
+        this.currentTime = e.target.currentTime
       },
       enter(el, done) {
         const {x, y, scale} = this._getPosAndScale()
