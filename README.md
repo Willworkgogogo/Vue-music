@@ -45,6 +45,7 @@ vue-music/
 - better-scroll 滚动
 - vue-lazyload 图片懒加载
 - Vuex
+- axios
 
 ### 3.Question
 > need to be resolved...
